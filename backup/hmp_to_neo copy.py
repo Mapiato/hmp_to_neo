@@ -66,6 +66,6 @@ while True:
                     r = requests.post("http://172.16.42.1:9995", data=pl)
                     print(r.status_code)
 
-            processed = shutil.move(source, storage, copy_function=copy2)
+            processed = shutil.move(source, storage)
             print("File processed and moved to ", storage)
     time.sleep(10)

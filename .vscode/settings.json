@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "venv/bin/python"
+    "python.pythonPath": "/home/martin/Development/hmp_to_neo/venv/bin/python3",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
